@@ -1,0 +1,297 @@
+﻿/* === Global style === */
+body {
+    display: block;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background: #F9F9F9;
+    font-family: Arial;
+}
+
+
+/* === Header Style === */
+.logo-align {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    border: 0 solid #ddd;
+}
+.logo-style {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+.logo-tagline {
+    text-align: center;
+    margin: 5px 0;
+    border: 0 solid #ddd;
+    color: black;
+    font-size: 14px;
+}
+
+
+/* === Container Style === */
+.background-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    top: 3px;
+    left: 2px;
+}
+.background-image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../Images/customer_page_img.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    z-index: -99;
+}
+.background-image-overlay-staff {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../Images/staff_page_img.png');
+    background-size: cover;
+    background-position: left;
+    opacity: 1;
+    z-index: -99;
+}
+.content-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: white;
+    opacity: 0.9;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    z-index: 1;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-row {
+    display: grid;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+.menu-container {
+    display: flex;
+    min-height: 100vh;
+}
+.side-menu-container {
+    flex: 0 0 250px;
+    background: #F9F9F9;
+    padding: 5px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+    top: -1px;
+    left: 0px;
+}
+.right-menu-container {
+    flex: 1;
+    background-color: white;
+    padding: 50px;
+}
+.form-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* vertical alignment */
+    gap: 2px; /* bigger gap for readability */
+}
+.title-container {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 1px;
+    box-sizing: border-box;
+}
+
+
+/* === Field Style === */
+.form-field {
+    display: flex;
+    flex-direction: row; /* label + input side by side */
+    align-items: flex-start; /* vertical alignment */
+    gap: 60px; /* spacing between label & input */
+}
+.form-field label {
+    display: inline-block;
+    width: 150px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left; /* makes labels left-aligned */
+}
+/* inputs expand to fill available space */
+.form-field .input-size {
+    flex: 1; /* grow to fill remaining width */
+    max-width: 350px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.display-field {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* align vertically */
+    gap: 20px; /* spacing between label & value */
+}
+.field-label {
+    display: inline-block;
+    width: 200px; /* consistent column width */
+    font-weight: 600;
+    text-align: left;
+}
+.field-value {
+    flex: 1;
+}
+.radio-inline input {
+    margin-right: 10px; /* space between radio and label */
+}
+.radio-inline td {
+    display: inline-block; /* force inline layout */
+    margin-right: 2px; /* spacing between options */
+}
+
+
+/* === Font Style === */
+.content-font-align {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 30px 0;
+}
+.content-font-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    color: black;
+}
+.content-font-style label {
+    font-weight: normal;
+    line-height: 1;
+}
+.validator-font {
+    color: red;
+    font-size: 14px;
+}
+.input-font {
+    color: grey;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+.content-phrase-align {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+}
+.content-phrase-style {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 10px 10px;
+    font-size: 25px;
+}
+.timestamp-font-size {
+    font-size: 12px;
+    color: grey;
+}
+.section-title {
+    background-color: #818286;
+    color: white;
+    font-size: 18px;
+}
+
+/* === Button Style === */
+.btn-align {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.btn-style {
+    background-color: #C00000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 40px;
+    margin: 20px 10px 20px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+    .btn-style:hover {
+        background-color: red;
+        color: white;
+        cursor: pointer;
+    }
+.btn-style-normal {
+    background-color: #ddd;
+    width: 30%;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+    .btn-style-normal:hover {
+        background-color: rgba(0,0,0,0.2);
+        color: black;
+        cursor: pointer;
+    }
+.btn-menu {
+    width: 100%;
+    max-width: 300px;
+    padding: 20px 0;
+    border: hidden;
+    background-color: #F9F9F9;
+    cursor: pointer;
+}
+    .btn-menu:hover {
+        background-color: #C00000;
+        color: white;
+    }
+
+
+/* 📱 Mobile view */
+@media (max-width: 768px) {
+    .menu-container {
+        flex-direction: column;
+    }
+
+    .side-menu-container {
+        flex: 0 0 auto;
+        width: 100%;
+        height: auto;
+    }
+
+    .right-menu-container {
+        width: 100%;
+    }
+}
