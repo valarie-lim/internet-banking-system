@@ -1,0 +1,3524 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CKV Internet Banking System
+</name>
+</assembly>
+<members>
+<member name="T:CKV_Internet_Banking_System.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:CKV_Internet_Banking_System.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:CKV_Internet_Banking_System.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:CKV_Internet_Banking_System.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:CKV_Internet_Banking_System.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:CKV_Internet_Banking_System.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_logout._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_logout._LogoutTimestamp">
+<summary>
+LogoutTimestamp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_logout._TimeAccessed">
+<summary>
+TimeAccessed control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_logout._BtnBackHome">
+<summary>
+BtnBackHome control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_main_menu._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_main_menu._BtnDashboard">
+<summary>
+BtnDashboard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_main_menu._BtnUpdateProfile">
+<summary>
+BtnUpdateProfile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_main_menu._BtnLogout">
+<summary>
+BtnLogout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_main_menu._EmployeeName">
+<summary>
+EmployeeName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_main_menu._LoginTimestamp">
+<summary>
+LoginTimestamp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_main_menu._BtnAddLocalCustomer">
+<summary>
+BtnAddLocalCustomer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_main_menu._BtnCustomerManagement">
+<summary>
+BtnCustomerManagement control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_profile_update._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_profile_update._BtnDashboard">
+<summary>
+BtnDashboard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_profile_update._BtnUpdateProfile">
+<summary>
+BtnUpdateProfile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_profile_update._BtnLogout">
+<summary>
+BtnLogout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_profile_update._EmployeeName">
+<summary>
+EmployeeName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_profile_update._LoginTimestamp">
+<summary>
+LoginTimestamp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_profile_update._StaffName">
+<summary>
+StaffName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_profile_update._StaffEmail">
+<summary>
+StaffEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_profile_update._StaffPhone">
+<summary>
+StaffPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_profile_update._StaffBirthDate">
+<summary>
+StaffBirthDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_profile_update._StaffGender">
+<summary>
+StaffGender control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_profile_update._StaffPosition">
+<summary>
+StaffPosition control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_profile_update._EmploymentDate">
+<summary>
+EmploymentDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_profile_update._BtnModify">
+<summary>
+BtnModify control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_profile_update_successful._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_profile_update_successful._BtnDashboard">
+<summary>
+BtnDashboard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_profile_update_successful._BtnUpdateProfile">
+<summary>
+BtnUpdateProfile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_profile_update_successful._BtnLogout">
+<summary>
+BtnLogout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_profile_update_successful._EmployeeName">
+<summary>
+EmployeeName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_profile_update_successful._LoginTimestamp">
+<summary>
+LoginTimestamp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_profile_update_successful._StaffName">
+<summary>
+StaffName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_profile_update_successful._StaffEmail">
+<summary>
+StaffEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_profile_update_successful._txtUpdatePhone">
+<summary>
+txtUpdatePhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_profile_update_successful._StaffBirthDate">
+<summary>
+StaffBirthDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_profile_update_successful._StaffGender">
+<summary>
+StaffGender control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_profile_update_successful._StaffPosition">
+<summary>
+StaffPosition control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_profile_update_successful._EmploymentDate">
+<summary>
+EmploymentDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_profile_update_successful._BtnUpdate">
+<summary>
+BtnUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_profile_update_successful._BtnCancel">
+<summary>
+BtnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_profile_update_successful._CheckTxtUpdatePhone">
+<summary>
+CheckTxtUpdatePhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.admin_profile_update_successful._revContactNo">
+<summary>
+revContactNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_confirmation._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_confirmation._BtnDashboard">
+<summary>
+BtnDashboard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_confirmation._BtnUpdateProfile">
+<summary>
+BtnUpdateProfile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_confirmation._BtnLogout">
+<summary>
+BtnLogout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_confirmation._EmployeeName">
+<summary>
+EmployeeName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_confirmation._LoginTimestamp">
+<summary>
+LoginTimestamp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_confirmation._InputFirstName">
+<summary>
+InputFirstName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_confirmation._InputMiddleName">
+<summary>
+InputMiddleName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_confirmation._InputLastName">
+<summary>
+InputLastName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_confirmation._InputCustomerIC">
+<summary>
+InputCustomerIC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_confirmation._InputDateOfBirth">
+<summary>
+InputDateOfBirth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_confirmation._InputGender">
+<summary>
+InputGender control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_confirmation._InputContactNo">
+<summary>
+InputContactNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_confirmation._InputEmail">
+<summary>
+InputEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_confirmation._InputStreetAddress">
+<summary>
+InputStreetAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_confirmation._InputCity">
+<summary>
+InputCity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_confirmation._InputPostcode">
+<summary>
+InputPostcode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_confirmation._InputState">
+<summary>
+InputState control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_confirmation._InputCountry">
+<summary>
+InputCountry control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_confirmation._InputAccNo">
+<summary>
+InputAccNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_confirmation._InputAccName">
+<summary>
+InputAccName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_confirmation._InputAccType">
+<summary>
+InputAccType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_confirmation._InputAccOpenDate">
+<summary>
+InputAccOpenDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_confirmation._InputInitialDeposit">
+<summary>
+InputInitialDeposit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_confirmation._BtnReturn">
+<summary>
+BtnReturn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_confirmation._BtnSubmit">
+<summary>
+BtnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._BtnDashboard">
+<summary>
+BtnDashboard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._BtnUpdateProfile">
+<summary>
+BtnUpdateProfile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._BtnLogout">
+<summary>
+BtnLogout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._EmployeeName">
+<summary>
+EmployeeName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._LoginTimestamp">
+<summary>
+LoginTimestamp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._TxtFirstName">
+<summary>
+TxtFirstName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._CheckFirstName">
+<summary>
+CheckFirstName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._TxtMiddleName">
+<summary>
+TxtMiddleName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._TxtLastName">
+<summary>
+TxtLastName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._CheckLastName">
+<summary>
+CheckLastName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._TxtCustomerIC">
+<summary>
+TxtCustomerIC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._CheckCustomerIC">
+<summary>
+CheckCustomerIC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._RevCustomerIC">
+<summary>
+RevCustomerIC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._TxtDateOfBirth">
+<summary>
+TxtDateOfBirth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._CheckDateOfBirth">
+<summary>
+CheckDateOfBirth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._RvDateOfBirth">
+<summary>
+RvDateOfBirth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._RblGender">
+<summary>
+RblGender control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._CheckGender">
+<summary>
+CheckGender control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._TxtContactNo">
+<summary>
+TxtContactNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._checkContactNo">
+<summary>
+checkContactNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._RevContactNo">
+<summary>
+RevContactNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._TxtEmail">
+<summary>
+TxtEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._CheckEmail">
+<summary>
+CheckEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._RevEmail">
+<summary>
+RevEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._TxtStreetAddress">
+<summary>
+TxtStreetAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._CheckStreetAddress">
+<summary>
+CheckStreetAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._TxtCity">
+<summary>
+TxtCity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._CheckCity">
+<summary>
+CheckCity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._TxtPostcode">
+<summary>
+TxtPostcode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._CheckPostcode">
+<summary>
+CheckPostcode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._RevPostcode">
+<summary>
+RevPostcode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._RvPostcode">
+<summary>
+RvPostcode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._DdlState">
+<summary>
+DdlState control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._CheckState">
+<summary>
+CheckState control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._LblAccNo">
+<summary>
+LblAccNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._DdlAccType">
+<summary>
+DdlAccType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._CheckDdlAccType">
+<summary>
+CheckDdlAccType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._TxtOpenDate">
+<summary>
+TxtOpenDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._TxtInitialDeposit">
+<summary>
+TxtInitialDeposit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._CheckTxtInitialDeposit">
+<summary>
+CheckTxtInitialDeposit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._CvTxtInitialDeposit">
+<summary>
+CvTxtInitialDeposit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._BtnConfirm">
+<summary>
+BtnConfirm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_account_registration._BtnCancel">
+<summary>
+BtnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_management._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_management._BtnDashboard">
+<summary>
+BtnDashboard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_management._BtnUpdateProfile">
+<summary>
+BtnUpdateProfile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_management._BtnLogout">
+<summary>
+BtnLogout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_management._EmployeeName">
+<summary>
+EmployeeName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_management._LoginTimestamp">
+<summary>
+LoginTimestamp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_management._txtSearchName">
+<summary>
+txtSearchName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_management._BtnSearch">
+<summary>
+BtnSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_management._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_management._SqlDataSource_CustomerInformation">
+<summary>
+SqlDataSource_CustomerInformation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_management._BtnEmailCustomer">
+<summary>
+BtnEmailCustomer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_pass_reset._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_pass_reset._txtUser">
+<summary>
+txtUser control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_pass_reset._CheckTxtUsername">
+<summary>
+CheckTxtUsername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.client_pass_reset._BtnNext">
+<summary>
+BtnNext control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.login_admin._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.login_admin._txtUser">
+<summary>
+txtUser control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.login_admin._CheckTxtUsername">
+<summary>
+CheckTxtUsername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.login_admin._BtnLoginVerify">
+<summary>
+BtnLoginVerify control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.login_verify_admin._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.login_verify_admin._lblUser">
+<summary>
+lblUser control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.login_verify_admin._lblPhrase">
+<summary>
+lblPhrase control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.login_verify_admin._RblPhraseConfirm">
+<summary>
+RblPhraseConfirm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.login_verify_admin._panelPassword">
+<summary>
+panelPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.login_verify_admin._txtPass">
+<summary>
+txtPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.login_verify_admin._CheckTxtPass">
+<summary>
+CheckTxtPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.login_verify_admin._showPass">
+<summary>
+showPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.login_verify_admin._BtnLogin">
+<summary>
+BtnLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.account_registration._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.account_registration._BtnCitizen">
+<summary>
+BtnCitizen control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.account_registration._BtnForeigner">
+<summary>
+BtnForeigner control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.account_registration_citizen._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.account_registration_citizen._TxtCustomerIC">
+<summary>
+TxtCustomerIC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.account_registration_citizen._CheckTxtCustomerIC">
+<summary>
+CheckTxtCustomerIC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.account_registration_citizen._RevCustomerIC">
+<summary>
+RevCustomerIC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.account_registration_citizen._BtnVerifyIC">
+<summary>
+BtnVerifyIC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.account_registration_citizen._BtnCancel">
+<summary>
+BtnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.account_registration_submit._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.account_registration_submit._TxtUsername">
+<summary>
+TxtUsername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.account_registration_submit._CheckTxtUsername">
+<summary>
+CheckTxtUsername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.account_registration_submit._TxtPass">
+<summary>
+TxtPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.account_registration_submit._CheckTxtPass">
+<summary>
+CheckTxtPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.account_registration_submit._PasswordValidator">
+<summary>
+PasswordValidator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.account_registration_submit._showPass">
+<summary>
+showPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.account_registration_submit._TxtLoginPhrase">
+<summary>
+TxtLoginPhrase control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.account_registration_submit._CheckLoginPhrase">
+<summary>
+CheckLoginPhrase control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.account_registration_submit._BtnSubmit">
+<summary>
+BtnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment._BtnAccOverview">
+<summary>
+BtnAccOverview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment._BtnFundTransfer">
+<summary>
+BtnFundTransfer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment._BtnBillPayment">
+<summary>
+BtnBillPayment control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment._BtnUpdateProfile">
+<summary>
+BtnUpdateProfile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment._BtnContactUs">
+<summary>
+BtnContactUs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment._BtnLogout">
+<summary>
+BtnLogout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment._CustomerName">
+<summary>
+CustomerName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment._LoginTimestamp">
+<summary>
+LoginTimestamp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment._DdlPaymentAccount">
+<summary>
+DdlPaymentAccount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment._CheckDdlPaymentAccount">
+<summary>
+CheckDdlPaymentAccount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment._SqlDataSource1_biller">
+<summary>
+SqlDataSource1_biller control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment._DdlUserAccount">
+<summary>
+DdlUserAccount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment._CheckDdlUserAccount">
+<summary>
+CheckDdlUserAccount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment._SqlDataSource1_customer">
+<summary>
+SqlDataSource1_customer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment._BillAmount">
+<summary>
+BillAmount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment._CheckBillAmount">
+<summary>
+CheckBillAmount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment._CvBillAmount">
+<summary>
+CvBillAmount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment._BillPaymentDate">
+<summary>
+BillPaymentDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment._CheckBillPaymentDate">
+<summary>
+CheckBillPaymentDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment._CvBillPaymentDate">
+<summary>
+CvBillPaymentDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment._BtnNext">
+<summary>
+BtnNext control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment_confirm._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment_confirm._BtnAccOverview">
+<summary>
+BtnAccOverview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment_confirm._BtnFundTransfer">
+<summary>
+BtnFundTransfer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment_confirm._BtnBillPayment">
+<summary>
+BtnBillPayment control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment_confirm._BtnUpdateProfile">
+<summary>
+BtnUpdateProfile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment_confirm._BtnContactUs">
+<summary>
+BtnContactUs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment_confirm._BtnLogout">
+<summary>
+BtnLogout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment_confirm._CustomerName">
+<summary>
+CustomerName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment_confirm._LoginTimestamp">
+<summary>
+LoginTimestamp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment_confirm._InputBillTo">
+<summary>
+InputBillTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment_confirm._InputBillFrom">
+<summary>
+InputBillFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment_confirm._InputBillAmount">
+<summary>
+InputBillAmount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment_confirm._InputBillPaymentDate">
+<summary>
+InputBillPaymentDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment_confirm._BtnCancel">
+<summary>
+BtnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment_confirm._BtnPayNow">
+<summary>
+BtnPayNow control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment_successful._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment_successful._BtnAccOverview">
+<summary>
+BtnAccOverview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment_successful._BtnFundTransfer">
+<summary>
+BtnFundTransfer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment_successful._BtnBillPayment">
+<summary>
+BtnBillPayment control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment_successful._BtnUpdateProfile">
+<summary>
+BtnUpdateProfile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment_successful._BtnContactUs">
+<summary>
+BtnContactUs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment_successful._BtnLogout">
+<summary>
+BtnLogout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment_successful._CustomerName">
+<summary>
+CustomerName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment_successful._LoginTimestamp">
+<summary>
+LoginTimestamp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment_successful._BtnNewTransaction">
+<summary>
+BtnNewTransaction control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.bill_payment_successful._BtnMenu">
+<summary>
+BtnMenu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.contact_us._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.contact_us._BtnAccOverview">
+<summary>
+BtnAccOverview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.contact_us._BtnFundTransfer">
+<summary>
+BtnFundTransfer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.contact_us._BtnBillPayment">
+<summary>
+BtnBillPayment control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.contact_us._BtnUpdateProfile">
+<summary>
+BtnUpdateProfile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.contact_us._BtnContactUs">
+<summary>
+BtnContactUs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.contact_us._BtnLogout">
+<summary>
+BtnLogout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.contact_us._CustomerName">
+<summary>
+CustomerName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.contact_us._LoginTimestamp">
+<summary>
+LoginTimestamp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.forgot_password._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.forgot_password._TxtSendCode">
+<summary>
+TxtSendCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.forgot_password._CheckSendCode">
+<summary>
+CheckSendCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.forgot_password._RegularExpressionValidator1">
+<summary>
+RegularExpressionValidator1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.forgot_password._BtnSendCode">
+<summary>
+BtnSendCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.forgot_password._BtnCancel">
+<summary>
+BtnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.forgot_password._lblBugCheck">
+<summary>
+lblBugCheck control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.forgot_password_verification._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.forgot_password_verification._TxtVerifyCode">
+<summary>
+TxtVerifyCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.forgot_password_verification._CheckVerifyCode">
+<summary>
+CheckVerifyCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.forgot_password_verification._BtnVerifyCode">
+<summary>
+BtnVerifyCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer._BtnAccOverview">
+<summary>
+BtnAccOverview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer._BtnFundTransfer">
+<summary>
+BtnFundTransfer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer._BtnBillPayment">
+<summary>
+BtnBillPayment control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer._BtnUpdateProfile">
+<summary>
+BtnUpdateProfile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer._BtnContactUs">
+<summary>
+BtnContactUs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer._BtnLogout">
+<summary>
+BtnLogout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer._CustomerName">
+<summary>
+CustomerName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer._LoginTimestamp">
+<summary>
+LoginTimestamp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer._TxtToAccount">
+<summary>
+TxtToAccount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer._CheckTxtToAccount">
+<summary>
+CheckTxtToAccount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer._DdlUserAccount">
+<summary>
+DdlUserAccount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer._CheckDdlUserAccount">
+<summary>
+CheckDdlUserAccount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer._SqlDataSource1_customer">
+<summary>
+SqlDataSource1_customer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer._TransferAmount">
+<summary>
+TransferAmount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer._CheckTransferAmount">
+<summary>
+CheckTransferAmount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer._TransferDate">
+<summary>
+TransferDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer._CheckTransferDate">
+<summary>
+CheckTransferDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer._CvTransferDate">
+<summary>
+CvTransferDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer._TxtTransDescription">
+<summary>
+TxtTransDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer._BtnNext">
+<summary>
+BtnNext control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer_confirmation._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer_confirmation._BtnAccOverview">
+<summary>
+BtnAccOverview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer_confirmation._BtnFundTransfer">
+<summary>
+BtnFundTransfer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer_confirmation._BtnBillPayment">
+<summary>
+BtnBillPayment control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer_confirmation._BtnUpdateProfile">
+<summary>
+BtnUpdateProfile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer_confirmation._BtnContactUs">
+<summary>
+BtnContactUs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer_confirmation._BtnLogout">
+<summary>
+BtnLogout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer_confirmation._CustomerName">
+<summary>
+CustomerName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer_confirmation._LoginTimestamp">
+<summary>
+LoginTimestamp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer_confirmation._InputTransferTo">
+<summary>
+InputTransferTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer_confirmation._InputTransferFrom">
+<summary>
+InputTransferFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer_confirmation._InputTransferAmount">
+<summary>
+InputTransferAmount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer_confirmation._InputTransferPaymentDate">
+<summary>
+InputTransferPaymentDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer_confirmation._InputTransDescription">
+<summary>
+InputTransDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer_confirmation._BtnCancel">
+<summary>
+BtnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer_confirmation._BtnTransferNow">
+<summary>
+BtnTransferNow control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer_successful._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer_successful._BtnAccOverview">
+<summary>
+BtnAccOverview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer_successful._BtnFundTransfer">
+<summary>
+BtnFundTransfer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer_successful._BtnBillPayment">
+<summary>
+BtnBillPayment control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer_successful._BtnUpdateProfile">
+<summary>
+BtnUpdateProfile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer_successful._BtnContactUs">
+<summary>
+BtnContactUs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer_successful._BtnLogout">
+<summary>
+BtnLogout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer_successful._CustomerName">
+<summary>
+CustomerName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer_successful._LoginTimestamp">
+<summary>
+LoginTimestamp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer_successful._BtnNewTransaction">
+<summary>
+BtnNewTransaction control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.fund_transfer_successful._BtnMenu">
+<summary>
+BtnMenu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.login._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.login._txtUser">
+<summary>
+txtUser control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.login._BtnLoginVerify">
+<summary>
+BtnLoginVerify control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.login._BtnCancel">
+<summary>
+BtnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.login_verification._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.login_verification._lblUser">
+<summary>
+lblUser control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.login_verification._lblPhrase">
+<summary>
+lblPhrase control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.login_verification._RblPhraseConfirm">
+<summary>
+RblPhraseConfirm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.login_verification._panelPassword">
+<summary>
+panelPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.login_verification._txtPass">
+<summary>
+txtPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.login_verification._CheckTxtPass">
+<summary>
+CheckTxtPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.login_verification._showPass">
+<summary>
+showPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.login_verification._ForgotPass">
+<summary>
+ForgotPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.login_verification._BtnLogin">
+<summary>
+BtnLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.logout._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.logout._LogoutTimestamp">
+<summary>
+LogoutTimestamp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.logout._TimeAccessed">
+<summary>
+TimeAccessed control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.logout._BtnBackHome">
+<summary>
+BtnBackHome control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.main_menu._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.main_menu._BtnAccOverview">
+<summary>
+BtnAccOverview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.main_menu._BtnFundTransfer">
+<summary>
+BtnFundTransfer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.main_menu._BtnBillPayment">
+<summary>
+BtnBillPayment control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.main_menu._BtnUpdateProfile">
+<summary>
+BtnUpdateProfile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.main_menu._BtnContactUs">
+<summary>
+BtnContactUs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.main_menu._BtnLogout">
+<summary>
+BtnLogout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.main_menu._CustomerName">
+<summary>
+CustomerName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.main_menu._LoginTimestamp">
+<summary>
+LoginTimestamp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.main_menu._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.main_menu._SqlDataSource_AccountOverview">
+<summary>
+SqlDataSource_AccountOverview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.main_menu._BtnViewAccount">
+<summary>
+BtnViewAccount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.password_reset._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.password_reset._TxtNewPass">
+<summary>
+TxtNewPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.password_reset._CheckTxtNewPass">
+<summary>
+CheckTxtNewPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.password_reset._PasswordValidator">
+<summary>
+PasswordValidator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.password_reset._TxtVerifyNewPass">
+<summary>
+TxtVerifyNewPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.password_reset._CheckVerifyNewPass">
+<summary>
+CheckVerifyNewPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.password_reset._cvVerifyNewPass">
+<summary>
+cvVerifyNewPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.password_reset._showPass">
+<summary>
+showPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.password_reset._BtnResetPass">
+<summary>
+BtnResetPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.profile_update._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.profile_update._BtnAccOverview">
+<summary>
+BtnAccOverview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.profile_update._BtnFundTransfer">
+<summary>
+BtnFundTransfer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.profile_update._BtnBillPayment">
+<summary>
+BtnBillPayment control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.profile_update._BtnUpdateProfile">
+<summary>
+BtnUpdateProfile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.profile_update._BtnContactUs">
+<summary>
+BtnContactUs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.profile_update._BtnLogout">
+<summary>
+BtnLogout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.profile_update._CustomerName">
+<summary>
+CustomerName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.profile_update._LoginTimestamp">
+<summary>
+LoginTimestamp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.profile_update._CustName">
+<summary>
+CustName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.profile_update._CustEmail">
+<summary>
+CustEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.profile_update._CustPhone">
+<summary>
+CustPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.profile_update._CustAddress">
+<summary>
+CustAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.profile_update._BtnModify">
+<summary>
+BtnModify control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.profile_update_detail._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.profile_update_detail._BtnAccOverview">
+<summary>
+BtnAccOverview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.profile_update_detail._BtnFundTransfer">
+<summary>
+BtnFundTransfer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.profile_update_detail._BtnBillPayment">
+<summary>
+BtnBillPayment control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.profile_update_detail._BtnUpdateProfile">
+<summary>
+BtnUpdateProfile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.profile_update_detail._BtnContactUs">
+<summary>
+BtnContactUs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.profile_update_detail._BtnLogout">
+<summary>
+BtnLogout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.profile_update_detail._CustomerName">
+<summary>
+CustomerName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.profile_update_detail._LoginTimestamp">
+<summary>
+LoginTimestamp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.profile_update_detail._CustName">
+<summary>
+CustName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.profile_update_detail._txtUpdateEmail">
+<summary>
+txtUpdateEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.profile_update_detail._CustPhone">
+<summary>
+CustPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.profile_update_detail._CustAddress">
+<summary>
+CustAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.profile_update_detail._BtnUpdate">
+<summary>
+BtnUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.profile_update_detail._BtnCancel">
+<summary>
+BtnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.profile_update_detail._CheckTxtUpdateEmail">
+<summary>
+CheckTxtUpdateEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.profile_update_detail._RegularExpressionValidator1">
+<summary>
+RegularExpressionValidator1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.view_account._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.view_account._BtnAccOverview">
+<summary>
+BtnAccOverview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.view_account._BtnFundTransfer">
+<summary>
+BtnFundTransfer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.view_account._BtnBillPayment">
+<summary>
+BtnBillPayment control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.view_account._BtnUpdateProfile">
+<summary>
+BtnUpdateProfile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.view_account._BtnContactUs">
+<summary>
+BtnContactUs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.view_account._BtnLogout">
+<summary>
+BtnLogout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.view_account._CustomerName">
+<summary>
+CustomerName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.view_account._LoginTimestamp">
+<summary>
+LoginTimestamp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.view_account._lblAccountHolder">
+<summary>
+lblAccountHolder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.view_account._txtAccountHolder">
+<summary>
+txtAccountHolder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.view_account._lblAccountType">
+<summary>
+lblAccountType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.view_account._txtAccountType">
+<summary>
+txtAccountType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.view_account._lblCurrentBalance">
+<summary>
+lblCurrentBalance control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.view_account._txtCurrentBalance">
+<summary>
+txtCurrentBalance control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.view_account._lblAvailableBalance">
+<summary>
+lblAvailableBalance control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.view_account._txtAvailableBalance">
+<summary>
+txtAvailableBalance control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.view_account._lblStatementDate">
+<summary>
+lblStatementDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.view_account._txtStatementDate">
+<summary>
+txtStatementDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.view_account._gvStatement">
+<summary>
+gvStatement control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.view_account._SqlDataSource_transaction">
+<summary>
+SqlDataSource_transaction control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.view_account._BtnViewStatement">
+<summary>
+BtnViewStatement control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.view_statement._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.view_statement._BtnAccOverview">
+<summary>
+BtnAccOverview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.view_statement._BtnFundTransfer">
+<summary>
+BtnFundTransfer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.view_statement._BtnBillPayment">
+<summary>
+BtnBillPayment control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.view_statement._BtnUpdateProfile">
+<summary>
+BtnUpdateProfile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.view_statement._BtnContactUs">
+<summary>
+BtnContactUs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.view_statement._BtnLogout">
+<summary>
+BtnLogout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.view_statement._ddlMonth">
+<summary>
+ddlMonth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.view_statement._ddlYear">
+<summary>
+ddlYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.view_statement._BtnFilter">
+<summary>
+BtnFilter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.view_statement._gvStatement">
+<summary>
+gvStatement control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.view_statement._BtnExportPDF">
+<summary>
+BtnExportPDF control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.SiteMaster._MainContent">
+<summary>
+MainContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.Site_Mobile._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.Site_Mobile._HeadContent">
+<summary>
+HeadContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.Site_Mobile._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.Site_Mobile._FeaturedContent">
+<summary>
+FeaturedContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.Site_Mobile._MainContent">
+<summary>
+MainContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CKV_Internet_Banking_System.Site_Mobile._ViewSwitcher1">
+<summary>
+ViewSwitcher1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>
