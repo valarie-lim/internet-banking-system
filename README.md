@@ -12,17 +12,21 @@ The purpose of this project is to simulate a simplified **online banking system*
 
 The system focuses on implementing core banking features along with basic security mechanisms for authentication and account protection.
 
-Live Demo
+---
+
+## Live Demo
+The system is publicly accessible at:
+
 http://ckvsystem.runasp.net/
 
-Customer
-Username: UserNumber1
+Test Accounts
 
-Password: User@123
+Customer  
+Username: UserNumber1  
+Password: User@123  
 
-Admin
-Username: Admin321
-
+Admin  
+Username: Admin321  
 Password: Admin@123
 
 ---
