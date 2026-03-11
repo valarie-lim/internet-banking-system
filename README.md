@@ -13,17 +13,14 @@ The purpose of this project is to simulate a simplified **online banking system*
 The system focuses on implementing core banking features along with basic security mechanisms for authentication and account protection.
 
 Live Demo
-
 http://ckvsystem.runasp.net/
 
 Customer
-
 Username: UserNumber1
 
 Password: User@123
 
 Admin
-
 Username: Admin321
 
 Password: Admin@123
@@ -39,8 +36,8 @@ Password: Admin@123
 ![Client Login](screenshots/client_login_phrase.png)
 ![Pass Reset Send Code](screenshots/client_pass_reset_send_code.png)
 ![Pass Reset Code Verify](screenshots/client_pass_reset_code_verify.png)
-![Client Reset Code](screenshots/client_pass_reset_code.png)
 ![Client Pass Reset](screenshots/client_pass_reset.png)
+![Client Reset Code](screenshots/client_pass_reset_code.png)
 ![Main Menu](screenshots/client_main_menu.png)
 ![Client View Account](screenshots/client_view_account.png)
 ![Client View Profile](screenshots/client_view_profile.png)
@@ -139,7 +136,11 @@ The system consists of several functional modules:
 ---
 
 ## Cloud Deployment
-The system was first deployed to **Microsoft Azure**, demonstrating cloud-based hosting of an ASP.NET web application and database integration in a live environment.
+The system was initially deployed to **Microsoft Azure** during the project submission phase to demonstrate cloud hosting of an ASP.NET web application with SQL Server database integration.
+
+After the project submission, additional system modules were independently completed and the system was redeployed to **MonsterASP.NET hosting** to provide a stable public live demo.
+
+This deployment allows users to experience the full functionality of the CKV Internet Banking System online.
 
 ---
 
