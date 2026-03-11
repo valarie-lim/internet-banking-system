@@ -12,6 +12,36 @@ The purpose of this project is to simulate a simplified **online banking system*
 
 The system focuses on implementing core banking features along with basic security mechanisms for authentication and account protection.
 
+Live Demo
+http://ckvsystem.runasp.net/
+Customer
+Username: UserNumber1
+Password: User@123
+
+Admin
+Username: Admin321
+Password: Admin@123
+
+---
+
+## System Preview
+![Admin Page](screenshots/admin_login.png)
+![Admin Reactivate Locked Account](screenshots/admin_reactivate_locked_account.png)
+![Admin Create New Bank Account](screenshots/admin_register_new_acc.png)
+![Admin Create New Bank Account Confirmation](screenshots/admin_register_new_acc_confirmation.png)
+![Online Banking Account Registration](screenshots/client_account_registration.png)
+![Client Login](screenshots/client_login_phrase.png)
+![Pass Reset Send Code](screenshots/client_pass_reset_send_code.png)
+![Pass Reset Code Verify](screenshots/client_pass_reset_code_verify.png)
+![Client Reset Code](screenshots/client_pass_reset_code.png)
+![Client Pass Reset](screenshots/client_pass_reset.png)
+![Main Menu](screenshots/client_main_menu.png)
+![Client View Account](screenshots/client_view_account.png)
+![Client View Profile](screenshots/client_view_profile.png)
+![Client View Statement](screenshots/client_view_statement.png)
+![Client Bill Transfer](screenshots/client_bill_payment.png)
+![Client Fund Transfer](screenshots/client_fund_transfer.png)
+
 ---
 
 ## My Role
@@ -140,26 +170,6 @@ Through this project, I gained experience in:
 - Using GitHub for collaborative development
 - Leading and coordinating development in a team project
 - Independently learning and completing unfinished system modules
-
----
-
-## System Screenshots
-![Admin Page](screenshots/admin_login.png)
-![Admin Reactivate Locked Account](screenshots/admin_reactivate_locked_account.png)
-![Admin Create New Bank Account](screenshots/admin_register_new_acc.png)
-![Admin Create New Bank Account Confirmation](screenshots/admin_register_new_acc_confirmation.png)
-![Online Banking Account Registration](screenshots/client_account_registration.png)
-![Client Login](screenshots/client_login_phrase.png)
-![Pass Reset Send Code](screenshots/client_pass_reset_send_code.png)
-![Pass Reset Code Verify](screenshots/client_pass_reset_code_verify.png)
-![Client Reset Code](screenshots/client_pass_reset_code.png)
-![Client Pass Reset](screenshots/client_pass_reset.png)
-![Main Menu](screenshots/client_main_menu.png)
-![Client View Account](screenshots/client_view_account.png)
-![Client View Profile](screenshots/client_view_profile.png)
-![Client View Statement](screenshots/client_view_statement.png)
-![Client Bill Transfer](screenshots/client_bill_payment.png)
-![Client Fund Transfer](screenshots/client_fund_transfer.png)
 
 ---
 
