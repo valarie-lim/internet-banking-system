@@ -1,5 +1,9 @@
 # CKV Internet Banking System
-ASP.NET Web Application | VB.NET | SQL Server | Authentication System
+![Framework](https://img.shields.io/badge/Framework-ASP.NET-blue)
+![Language](https://img.shields.io/badge/Language-VB.NET-purple)
+![Database](https://img.shields.io/badge/Database-SQL%20Server-red)
+![Application](https://img.shields.io/badge/Application-Web%20Application-green)
+![Feature](https://img.shields.io/badge/Feature-Authentication-orange)
 
 CKV Internet Banking System is a web-based banking platform developed as part of a Rapid Application Development (RAD) group project.
 
