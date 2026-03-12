@@ -19,10 +19,9 @@ The system focuses on implementing core banking features along with basic securi
 ---
 
 ## Live Demo
-The system is publicly accessible at:
-
-http://ckvsystem.runasp.net/
-
+The system is publicly accessible at:  
+http://ckvsystem.runasp.net/  
+  
 Test Accounts
 
 Customer  
@@ -32,26 +31,78 @@ Password: User@123
 Admin  
 Username: Admin321  
 Password: Admin@123
-
+  
 ---
 
 ## System Preview
+### Admin Feature
+#### Login Page
 ![Admin Page](screenshots/admin_login.png)
+
+---
+
+#### Reactivate Client Locked Account
 ![Admin Reactivate Locked Account](screenshots/admin_reactivate_locked_account.png)
+
+---
+
+#### Create New Bank Account 
 ![Admin Create New Bank Account](screenshots/admin_register_new_acc.png)
+
+---
+
+#### Create New Bank Account Confirmation
 ![Admin Create New Bank Account Confirmation](screenshots/admin_register_new_acc_confirmation.png)
+
+---
+
+### Client Feature
+#### Register Online Banking Login Account
 ![Online Banking Account Registration](screenshots/client_account_registration.png)
+
+---
+
+#### Login Page
 ![Client Login](screenshots/client_login_phrase.png)
+
+---
+
+#### Reset Password
 ![Pass Reset Send Code](screenshots/client_pass_reset_send_code.png)
+![Client Reset Code](screenshots/client_pass_reset_code.png)
 ![Pass Reset Code Verify](screenshots/client_pass_reset_code_verify.png)
 ![Client Pass Reset](screenshots/client_pass_reset.png)
-![Client Reset Code](screenshots/client_pass_reset_code.png)
+
+
+---
+
+#### Main Menu Page
 ![Main Menu](screenshots/client_main_menu.png)
+
+---
+
+#### View Account
 ![Client View Account](screenshots/client_view_account.png)
-![Client View Profile](screenshots/client_view_profile.png)
+
+---
+
+#### View Statement
 ![Client View Statement](screenshots/client_view_statement.png)
+
+---
+
+#### Bill Payment
 ![Client Bill Transfer](screenshots/client_bill_payment.png)
+
+---
+
+#### Fund Transfer
 ![Client Fund Transfer](screenshots/client_fund_transfer.png)
+
+---
+
+#### View Profile
+![Client View Profile](screenshots/client_view_profile.png)
 
 ---
 
@@ -61,23 +112,23 @@ This was a **group project**, and I served as the **group leader**.
 My responsibilities included coordinating the development process, managing task distribution among team members, and ensuring overall project progress.
 
 ### My Contributions
-- Designed the **overall user interface layout** of the banking system
-- Created customized background visuals incorporating the **CKV Bank logo**
-- Used **AI image generation tools** to produce customized background assets for the system interface
-- Implemented the **customer registration system**
-- Developed the **login authentication system**
-- Implemented **password hashing using SHA-256**
-- Implemented **account lockout after multiple failed login attempts**
-- Learned to use **GitHub for version control and collaboration**
-- Set up the project repository and **taught team members how to use GitHub for collaborative development**
-- Contributed to database integration and system testing
+- Designed the **overall user interface layout** of the banking system  
+- Created customized background visuals incorporating the **CKV Bank logo**  
+- Used **AI image generation tools** to produce customized background assets for the system interface  
+- Implemented the **customer registration system**  
+- Developed the **login authentication system**  
+- Implemented **password hashing using SHA-256**  
+- Implemented **account lockout after multiple failed login attempts**  
+- Learned to use **GitHub for version control and collaboration**  
+- Set up the project repository and **taught team members how to use GitHub for collaborative development**  
+- Contributed to database integration and system testing  
 
 ---
 
 ## Additional Development After Project Submission
-After the project submission, some modules assigned to team members — including **transaction handling, record viewing, and report printing** — were not fully completed.
+After the project submission, some modules assigned to team members, including transaction handling, record viewing, and report printing, were not fully completed.
 
-To ensure the system was functional and complete, I independently learned the required implementation and **completed these modules myself after the project submission**.
+To ensure the system was functional and complete, I independently learned the required implementation and finished these modules myself after the submission.
 
 This allowed the system to function as a more complete banking application.
 
@@ -97,7 +148,7 @@ This allowed the system to function as a more complete banking application.
 ---
 
 ## Security Features
-The system includes several security mechanisms to protect user accounts:
+The system includes several security mechanisms to protect user accounts:  
 - Password hashing using **SHA-256**
 - Login attempt limit to prevent brute-force attacks
 - Secure authentication logic
@@ -121,7 +172,7 @@ I learned how to use GitHub during the project and introduced it to the team, gu
 ---
 
 ## System Modules
-The system consists of several functional modules:
+The system consists of several functional modules:  
 - Customer registration module
 - Authentication module
 - Customer account management
